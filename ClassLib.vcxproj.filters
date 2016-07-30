@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{cc1ae948-91dd-45d2-9e0d-fa41a3dd56e9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Menus Src">
+      <UniqueIdentifier>{6361cb22-08cd-4fe9-bdd5-fcff75eef531}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Strings Src">
+      <UniqueIdentifier>{7e24ec4c-8129-4168-affc-8768f862b938}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tools Src">
+      <UniqueIdentifier>{255cabec-346f-4278-8a35-dab1b7766595}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Windows Src">
+      <UniqueIdentifier>{fecd14d0-d968-4ff9-944f-ba5b6c0e1e36}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Windows Src\Common Dialogs Src">
+      <UniqueIdentifier>{cb1a0f44-3ccf-4044-886a-d73d722b5d9b}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Windows Src\Custom Controls Src">
+      <UniqueIdentifier>{fb1a47be-b3d8-424a-b77e-863551da90a6}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GDI Src">
+      <UniqueIdentifier>{5a41e783-f2a9-44ab-b496-2a5822a11e20}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Layout Src">
+      <UniqueIdentifier>{72669c24-74a5-416b-a35f-2a6586b59645}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\IO Src">
+      <UniqueIdentifier>{b77b987a-0a24-4aa1-a4b6-01091def6048}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ado Src">
+      <UniqueIdentifier>{56df1952-9988-4073-ad11-94aa942ae830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c73c85f5-3669-4291-8c3d-0bc02813489f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Collectors">
+      <UniqueIdentifier>{823a3173-c5f2-49db-a1ce-d556fc1d9652}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Coords">
+      <UniqueIdentifier>{899e5553-e70a-4f6a-aa52-cb46dd5a4bd4}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Menus">
+      <UniqueIdentifier>{335fe6b4-fd04-4f04-8626-ef6039d93fc8}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Strings">
+      <UniqueIdentifier>{c677b3b6-3ad4-47c3-8b58-3ba236cb7c07}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{4b14615c-4090-4aef-a732-60691babac3c}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows">
+      <UniqueIdentifier>{cc170401-f938-45a1-8f41-52b5506dbc93}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows\Common Controls">
+      <UniqueIdentifier>{da63e1ef-c3fe-48eb-b566-8500f3c4cf5a}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows\Common Dialogs">
+      <UniqueIdentifier>{56f3eae2-76cd-4192-8b08-c7e493e68acd}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows\Controls">
+      <UniqueIdentifier>{04f29cb5-6fa4-486e-b6fd-0f59f519eef4}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows\Custom Controls">
+      <UniqueIdentifier>{f1e6d2d8-c964-42ef-9c1f-c345ed5afa05}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Windows\CustomTabCtrl">
+      <UniqueIdentifier>{ef9a4194-40c0-4e0a-abd7-2f5664002333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GDI">
+      <UniqueIdentifier>{578165e3-7b4c-44fb-a167-c4a5fc1e5e6b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{8e0f5c2e-cc89-4b3b-bc31-ccf5aa3cad0a}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Layout">
+      <UniqueIdentifier>{553f3518-9863-4f01-a12a-ef43b1e45104}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\IO">
+      <UniqueIdentifier>{b17b7caf-d51a-45ec-b544-94c9541b65d3}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Threads">
+      <UniqueIdentifier>{d3514e93-559b-4cbd-bef8-cd63d793cfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shell">
+      <UniqueIdentifier>{ad4b6eea-1f57-4c48-afe4-d6f96bc48b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ado">
+      <UniqueIdentifier>{d2475b0d-aaed-4d13-8157-33ba01caeecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text Files">
+      <UniqueIdentifier>{c28c9a71-6448-4e28-88bb-6aa1abb752b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menus\bitmapmenu.cpp">
+      <Filter>Source Files\Menus Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Menus\menu.cpp">
+      <Filter>Source Files\Menus Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Menus\xpmenu.cpp">
+      <Filter>Source Files\Menus Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings\string.cpp">
+      <Filter>Source Files\Strings Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\boyermoore.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Crc16.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Crc32.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\drawtools.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\findfile.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\module.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\mru.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\recttracker.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\regkey.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\tracker.cpp">
+      <Filter>Source Files\Tools Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\cfwindow.cpp">
+      <Filter>Source Files\Windows Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\dialog.cpp">
+      <Filter>Source Files\Windows Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\mdichildwindow.cpp">
+      <Filter>Source Files\Windows Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\mdimainwindow.cpp">
+      <Filter>Source Files\Windows Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\window.cpp">
+      <Filter>Source Files\Windows Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Common Dialogs\colordialog.cpp">
+      <Filter>Source Files\Windows Src\Common Dialogs Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Common Dialogs\filedialog.cpp">
+      <Filter>Source Files\Windows Src\Common Dialogs Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Common Dialogs\fontdialog.cpp">
+      <Filter>Source Files\Windows Src\Common Dialogs Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\balloonhelp.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\browser.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\colorpicker.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\colorpopup.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\filedirbrowser.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\filedirtree.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\flatbutton.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\hotbutton.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\hotcombobox.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\hotedit.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\hyperlink.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\infobar.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\infocontrol.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\outlookbar.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\panel.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\panelbar.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\Custom Controls\splitter.cpp">
+      <Filter>Source Files\Windows Src\Custom Controls Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\bitmap.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\brush.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\dc.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\font.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\gdiobject.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\palette.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\pen.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi\rgn.cpp">
+      <Filter>Source Files\GDI Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\layout.cpp">
+      <Filter>Source Files\Layout Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\ltab.cpp">
+      <Filter>Source Files\Layout Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Io\file.cpp">
+      <Filter>Source Files\IO Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Ado\ado2.cpp">
+      <Filter>Source Files\Ado Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Ado\adox.cpp">
+      <Filter>Source Files\Ado Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Ado\currency.cpp">
+      <Filter>Source Files\Ado Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Ado\datetime.cpp">
+      <Filter>Source Files\Ado Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="all.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="standard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectors\all.h">
+      <Filter>Header Files\Collectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectors\Array.h">
+      <Filter>Header Files\Collectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectors\Collector.h">
+      <Filter>Header Files\Collectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectors\hash.h">
+      <Filter>Header Files\Collectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectors\LinkedList.h">
+      <Filter>Header Files\Collectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectors\simplearray.h">
+      <Filter>Header Files\Collectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Collectors\stringarray.h">
+      <Filter>Header Files\Collectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Coords\all.h">
+      <Filter>Header Files\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="Coords\Point.h">
+      <Filter>Header Files\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="Coords\Rect.h">
+      <Filter>Header Files\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="Coords\Size.h">
+      <Filter>Header Files\Coords</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus\all.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus\bitmapmenu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus\menu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus\menuiteminfo.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Menus\xpmenu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\all.h">
+      <Filter>Header Files\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings\string.h">
+      <Filter>Header Files\Strings</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\all.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\boyermoore.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\color.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Crc16.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Crc32.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\DrawState.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\drawtools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\findfile.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\module.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\mru.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\multimonitor.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\recttracker.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\regkey.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\RGBHLS.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\theming.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\tracker.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\waitcursor.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XPColors.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\all.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\cfwindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\dialog.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\mdiwindow.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\messagebox.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\window.h">
+      <Filter>Header Files\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\all.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\animation.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\comboboxex.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\commoncontrol.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\datetime.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\header.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\imagelist.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\ipaddress.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\listview.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\monthcalendar.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\pager.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\progress.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\rebar.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\statusbar.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\tab.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\toolbar.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\tooltip.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\trackbar.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\treeview.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Controls\updown.h">
+      <Filter>Header Files\Windows\Common Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Dialogs\all.h">
+      <Filter>Header Files\Windows\Common Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Dialogs\colordialog.h">
+      <Filter>Header Files\Windows\Common Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Dialogs\commondialog.h">
+      <Filter>Header Files\Windows\Common Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Dialogs\filedialog.h">
+      <Filter>Header Files\Windows\Common Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Common Dialogs\fontdialog.h">
+      <Filter>Header Files\Windows\Common Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\all.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\button.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\checkbox.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\combobox.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\edit.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\listbox.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\radiobutton.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\richedit.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\scroller.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Controls\static.h">
+      <Filter>Header Files\Windows\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\all.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\balloonhelp.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\brainchild++.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\brainchild.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\browser.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\colorpicker.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\colorpopup.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\combocompletion.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\dirbrowser.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\filebrowser.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\filedirbrowser.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\filedirtree.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\flatbutton.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\hotbutton.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\hotcombobox.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\hotedit.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\hyperlink.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\infobar.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\infocontrol.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\outlookbar.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\panelbar.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\splitter.h">
+      <Filter>Header Files\Windows\Custom Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\CustomTabCtrl\all.h">
+      <Filter>Header Files\Windows\CustomTabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\CustomTabCtrl\CustomTabCtrl.h">
+      <Filter>Header Files\Windows\CustomTabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\CustomTabCtrl\DotNetTabCtrl.h">
+      <Filter>Header Files\Windows\CustomTabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\Custom Controls\CustomTabCtrl\FolderTabCtrl.h">
+      <Filter>Header Files\Windows\CustomTabCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GDI\all.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\bitmap.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\brush.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\bufferdc.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\dc.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\font.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\gdiobject.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\getdc.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\paintdc.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\palette.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\pen.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\rgn.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\savedc.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\selector.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi\windowdc.h">
+      <Filter>Header Files\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\all.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\exception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\fileexception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\memoryexception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\shellexception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\all.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\layout.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\lcheckbox.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\lcombobox.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\ledit.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\llistbox.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\lpushbutton.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\lradiobutton.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\lstatic.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\ltab.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\sizedialog.h">
+      <Filter>Header Files\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\all.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Io\file.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\stdiofile.h">
+      <Filter>Header Files\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\all.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\criticalsection.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\event.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\mutex.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\semaphore.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\syncobject.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads\workerthread.h">
+      <Filter>Header Files\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\All.h">
+      <Filter>Header Files\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\interface.h">
+      <Filter>Header Files\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\shelldesktopfolder.h">
+      <Filter>Header Files\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell\shellmalloc.h">
+      <Filter>Header Files\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado\ado2.h">
+      <Filter>Header Files\Ado</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado\adobase.h">
+      <Filter>Header Files\Ado</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado\adox.h">
+      <Filter>Header Files\Ado</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado\All.h">
+      <Filter>Header Files\Ado</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado\currency.h">
+      <Filter>Header Files\Ado</Filter>
+    </ClInclude>
+    <ClInclude Include="Ado\datetime.h">
+      <Filter>Header Files\Ado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassHierarchy.txt">
+      <Filter>Text Files</Filter>
+    </None>
+    <None Include="History.txt">
+      <Filter>Text Files</Filter>
+    </None>
+    <None Include="Todo.txt">
+      <Filter>Text Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
